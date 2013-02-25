@@ -93,7 +93,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header{
+    background-color: blue;
+    
+}
 
+header h1 {
+    color: yellow;
+    font-family: "Comic Sans MS";
+}
 
 
 
