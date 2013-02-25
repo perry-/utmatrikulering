@@ -82,6 +82,27 @@ header h1 {
   color: yellow;
   font-family: "Comic Sans MS"; }
 
+.pagething {
+  padding: 1em; }
+
+#page1, #page3 {
+  min-height: 650px; }
+
+#page1 {
+  background-image: url(http://i.imgur.com/jpLMGQ1.jpg);
+  background-attachment: fixed; }
+
+#page2, #page4 {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 10px #222;
+  min-height: 400px; }
+
+#page3 {
+  background-image: url(http://upload.wikimedia.org/wikipedia/commons/e/e6/Britannia_Trondheim.jpg);
+  background-attachment: fixed; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
