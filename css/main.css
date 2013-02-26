@@ -88,6 +88,12 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+}
+
 .pagething {
   padding: 1em; }
   .pagething .container-b {
@@ -102,6 +108,7 @@ a:hover {
 #page1 {
   background: url(http://folk.ntnu.no/chriper/Utmatrikulering/hovedbygget.jpg) no-repeat center center fixed;
   background-size: cover;
+  height: 650px;
 }
 
 #page2, #page4 {
@@ -111,8 +118,12 @@ a:hover {
   box-shadow: 0 0 10px #222;
   min-height: 400px; }
 
-#page3, #page5 {
+#page3 {
   background-image: url(http://upload.wikimedia.org/wikipedia/commons/e/e6/Britannia_Trondheim.jpg);
+  background-attachment: fixed; }
+
+#page5 {
+  background-image: url(http://www.xarj.net/wp-content/uploads/2012/10/night-club.jpg);
   background-attachment: fixed; }
 
 #menu {
@@ -121,15 +132,30 @@ a:hover {
 }
 
 #menu h1{
-    font-size: 2em;
+    font-size: 2.5em;
+    font-weight: normal;
 }
 
 #menu h2{
-    font-size: 1.5em
+    font-size: 1.5em;
+    font-weight: normal;
 }
 
-.subtext{
-    font-size: 0.5em
+#menu h3{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#menu p{
+    font-size: 0.8em;
+}
+
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .btn {
