@@ -78,9 +78,15 @@ textarea {
 body {
   background-color: blue; }
 
-header h1 {
-  color: yellow;
-  font-family: "Comic Sans MS"; }
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
 
 .pagething {
   padding: 1em; }
@@ -88,15 +94,15 @@ header h1 {
     background: rgba(0, 0, 0, 0.8);
     color: white; }
   .pagething p {
-    font-size: 3em; }
+    font-size: 2em; }
 
-#page1, #page3 {
+#page1, #page3, #page5 {
   min-height: 650px; }
 
 #page1 {
-  background-image: url(http://folk.ntnu.no/chriper/Utmatrikulering/hovedbygget.jpg);
+  background: url(http://folk.ntnu.no/chriper/Utmatrikulering/hovedbygget.jpg) no-repeat center center fixed;
   background-size: cover;
-  background-attachment: fixed; }
+}
 
 #page2, #page4 {
   background: #fff;
@@ -105,7 +111,7 @@ header h1 {
   box-shadow: 0 0 10px #222;
   min-height: 400px; }
 
-#page3 {
+#page3, #page5 {
   background-image: url(http://upload.wikimedia.org/wikipedia/commons/e/e6/Britannia_Trondheim.jpg);
   background-attachment: fixed; }
 
