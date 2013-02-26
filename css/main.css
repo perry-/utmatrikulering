@@ -118,6 +118,10 @@ header h1 {
     font-size: 2em;
 }
 
+#menu h3{
+    font-size: 1.5em
+}
+
 .subtext{
     font-size: 0.5em
 }
