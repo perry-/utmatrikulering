@@ -82,23 +82,6 @@ header h1 {
   color: yellow;
   font-family: "Comic Sans MS"; }
 
-#menu {
-    text-align: center;
-    font-size: 1em;
-}
-
-#menu h1{
-    font-size: 2em;
-}
-
-#menu h2{
-    font-size: 1.5em
-}
-
-.subtext{
-    font-size: 0.5em
-}
-
 .pagething {
   padding: 1em; }
   .pagething .container-b {
@@ -126,6 +109,22 @@ header h1 {
   background-image: url(http://upload.wikimedia.org/wikipedia/commons/e/e6/Britannia_Trondheim.jpg);
   background-attachment: fixed; }
 
+#menu {
+    text-align: center;
+    font-size: 1em;
+}
+
+#menu h1{
+    font-size: 2em;
+}
+
+#menu h2{
+    font-size: 1.5em
+}
+
+.subtext{
+    font-size: 0.5em
+}
 
 .btn {
   display: inline-block;
