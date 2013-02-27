@@ -142,6 +142,11 @@ h1 {
   background-image: url(../img/nightclub.jpg);
   background-attachment: fixed; }
 
+#page6 p{
+  font-size: 1.5em;
+  text-align: center;
+}
+
 #menu {
     background: rgba(0, 0, 0, 0.8);
     color: white;
@@ -192,15 +197,14 @@ h1 {
 }
 
 .logo{
-    vertical-align: top;
     display: inline-block;
+    vertical-align: top;
     text-align: center;
     width: 33%;
 }
 
-#container{
-    vertical-align: top;
-    display: inline-block;
+#contact{
+  padding-top: 4em;
 }
 
 .btn {
