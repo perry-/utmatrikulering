@@ -116,6 +116,10 @@ h1 {
   height: 650px;
 }
 
+#page1 h1{
+    font-size: 6em;
+}
+
 #page2, #page4, #page6 {
   background: #fff;
   position: relative;
