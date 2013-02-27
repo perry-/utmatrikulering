@@ -116,7 +116,7 @@ h1 {
   height: 650px;
 }
 
-#page2, #page4, #page6, #page7 {
+#page2, #page4, #page6 {
   background: #fff;
   position: relative;
   z-index: 2;
@@ -155,12 +155,39 @@ h1 {
     font-size: 0.8em;
 }
 
+#rooms h1{
+    font-size: 2em;
+    font-weight: normal;
+    text-align: left;
+}
+
+#rooms p{
+    font-size: 1em;
+    margin-left: 2em;
+}
+
 .line-separator{
     height:1px;
     background:#717171;
     border-bottom:1px solid #313030;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.logo{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.logo img{
+    max-width: 250px;
+}
+
+#container{
+    vertical-align: top;
+    display: inline-block;
 }
 
 .btn {
