@@ -12,18 +12,28 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/scrollbar.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
-        
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner">
+            <ul class="nav">
+              <li class="active"><a href="#">Hjem</a></li>
+              <li><a href="#page2">Seremoni</a></li>
+              <li><a href="#page3">Meny</a></li>
+              <li><a href="#page4">Påmelding / Rombestilling</a></li>
+              <li><a href="#page5">Afterparty</a></li>
+            </ul>
+          </div>
+        </div>
 
 
         <div id="page1" class="pagething">
@@ -57,27 +67,28 @@
         	</div>
         </div>
         <div id="page4" class="pagething">
-            <h1>Afterparty!</h1>
-            <p><i class="icon-map-marker"></i> TBA</p>
-            <p><i class="icon-time"></i> 22:00</p>
-		</div>
+                <h1>Påmelding</h1>
+                <a class="btn-success btn">Meld meg på!</a>
+                <h1>Rombestilling</h1>
+                <p><i class="icon-map-marker"></i> Britannia Hotel</p>
+                <p><i class="icon-credit-card"></i> 1295,- pr. rom (<a href="http://britannia.no/room-type/dobbeltrom/">standard dobbeltrom</a>)</p>
+                <p><i class="icon-phone"></i> 73 800 800 for bestilling, oppgi kodeord sendt på mail</p>
+                <div id="rooms">
+                    <h1>Romprisen inkluderer:</h1>
+                    <p><i class="icon-food"></i> frokostbuffet i Palmehaven</p>
+                    <p><i class="icon-laptop"></i> fri tilgang til trådløs internett (WLAN)</p>
+                    <p><i class="icon-coffee"></i> fri adgang til <a href="http://britannia.no/spa-velvaere/?lang=nb">Britannia Spa & Velvære.</a></p>
+                </div>
+            </div>
         <div id="page5" class="pagething">
-        	<div class="container-b">
-	            <h1>Påmelding</h1>
-	            <a class="btn-success btn">Meld meg på!</a>
-	            <h1>Rombestilling</h1>
-	            <p><i class="icon-map-marker"></i> Britannia Hotel</p>
-	            <p><i class="icon-credit-card"></i> 1295,- pr. rom (<a href="http://britannia.no/room-type/dobbeltrom/">standard dobbeltrom</a>)</p>
-	            <p><i class="icon-phone"></i> 73 800 800 for bestilling, oppgi kodeord sendt på mail</p>
-	            <div id="rooms">
-		            <h1>Romprisen inkluderer:</h1>
-		            <p><i class="icon-food"></i> frokostbuffet i Palmehaven</p>
-		            <p><i class="icon-laptop"></i> fri tilgang til trådløs internett (WLAN)</p>
-		            <p><i class="icon-coffee"></i> fri adgang til <a href="http://britannia.no/spa-velvaere/?lang=nb">Britannia Spa & Velvære.</a></p>
-            	</div>
+            <div class="container-b">
+                <h1>Afterparty!</h1>
+                <p><i class="icon-map-marker"></i> TBA</p>
+                <p><i class="icon-time"></i> 22:00</p>
             </div>
         </div>
         <div id="page6" class="pagething">
+
             <h1>Sponsorer</h1>
             <div class="container">
 	            <a href="http://online.ntnu.no"><div class="logo"><object data="img/online.svg" type="image/svg+xml" title=""></object></div></a>

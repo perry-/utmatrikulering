@@ -100,8 +100,10 @@ h1 {
     width: 1500px;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: 0 0 10px #222;
      }
   .pagething .container-b {
+    padding: 1em;
     background: rgba(0, 0, 0, 0.8);
     color: white; }
   .pagething p {
@@ -111,9 +113,13 @@ h1 {
   min-height: 650px; }
 
 #page1 {
-  background: url(http://folk.ntnu.no/chriper/Utmatrikulering/hovedbygget.jpg) no-repeat center center fixed;
+  background: url(../img/hovedbygget.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 650px;
+}
+
+#page1 .container-b{
+  padding: 0;
 }
 
 #page1 h1{
@@ -121,18 +127,19 @@ h1 {
 }
 
 #page2, #page4, #page6 {
-  background: #fff;
+  background: url(../img/paper_fibers.png) repeat;
   position: relative;
   z-index: 2;
   box-shadow: 0 0 10px #222;
   min-height: 400px; }
 
 #page3 {
-  background-image: url(http://upload.wikimedia.org/wikipedia/commons/e/e6/Britannia_Trondheim.jpg);
+  background-image: url(../img/britannia.jpg);
+  background-size: cover;
   background-attachment: fixed; }
 
 #page5 {
-  background-image: url(http://www.xarj.net/wp-content/uploads/2012/10/night-club.jpg);
+  background-image: url(../img/nightclub.jpg);
   background-attachment: fixed; }
 
 #menu {
