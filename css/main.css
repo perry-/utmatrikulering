@@ -75,6 +75,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background: url(../img/charcoal.gif) repeat;
+  background-attachment: fixed; }
+
 a {
   color: #0088cc;
   text-decoration: none;
@@ -92,14 +96,18 @@ h1 {
 }
 
 .pagething {
-  padding: 1em; }
+    padding: 1em; 
+    width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+     }
   .pagething .container-b {
     background: rgba(0, 0, 0, 0.8);
     color: white; }
   .pagething p {
     font-size: 2em; }
 
-#page1, #page3, #page5, #page7 {
+#page1, #page3, #page5 {
   min-height: 650px; }
 
 #page1 {
@@ -108,7 +116,7 @@ h1 {
   height: 650px;
 }
 
-#page2, #page4, #page6 {
+#page2, #page4, #page6, #page7 {
   background: #fff;
   position: relative;
   z-index: 2;
@@ -121,10 +129,6 @@ h1 {
 
 #page5 {
   background-image: url(http://www.xarj.net/wp-content/uploads/2012/10/night-club.jpg);
-  background-attachment: fixed; }
-
-#page7 {
-  background: url(../img/charcoal.gif) repeat;
   background-attachment: fixed; }
 
 #menu {
