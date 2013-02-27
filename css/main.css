@@ -185,10 +185,6 @@ h1 {
     width: 33%;
 }
 
-.logo img{
-    max-width: 250px;
-}
-
 #container{
     vertical-align: top;
     display: inline-block;
