@@ -75,6 +75,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media screen and (max-width: 1599px) {
+  .pagething{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+    .pagething{
+        width: 75%;
+    }
+}
+
 body {
   background: url(../img/charcoal.gif) repeat;
   background-attachment: fixed; }
@@ -93,11 +105,11 @@ h1 {
     font-weight: normal;
     font-size: 3em;
     text-align: center;
+    line-height: 1em;
 }
 
 .pagething {
     padding: 1em; 
-    width: 75%;
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0 0 10px #222;
@@ -197,11 +209,11 @@ h1 {
 }
 
 .logo{
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    width: 33%;
-}
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 32%;
+    }
 
 #contact{
   padding-top: 4em;
